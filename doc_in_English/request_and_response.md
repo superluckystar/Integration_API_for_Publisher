@@ -109,7 +109,7 @@ The Ad Request is a request sent by Publisher to Advlion ADX to request an ad, v
 | language | string | no | Device language settings, using `alpha-2/ISO 639-1` |
 | js | integer | no | whether Javascript is supported<br>1-yes<br>0-no |
 | connectiontype | integer | yes | network connection type<br>1- wifi<br>2- 2G<br>3- 3G<br>4- 4G |
-| ext | object | yes | expansion fields |
+| ext | object | yes | Extended field |
 | ext.orientation | integer | no | Device orientation<br>0- portrait<br>1- landscape |
 | ext.imei | string | no | IMEI for android device. |
 | ext.idfa | string | no | IDFA for ios device. |
